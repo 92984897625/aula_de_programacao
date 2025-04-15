@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    real celsius,kelvin,fahrenheit
+    cadeia kelvinT,fahrenheitT
+  escreva ("digite quamtos graus celsius: ")
+    leia (celsius)
+  
+  escreva ("\n")
+
+ kelvin = (celsius+273.15)
+
+ fahrenheit = (celsius*9/5+32)
+  escreva ("fahrenheit: ")
+  escreva (fahrenheit)
+  escreva (" °F")
+  escreva ("\n")
+  escreva ("kelvin: ")
+  escreva (kelvin)
+  escreva (" K")
+  escreva ("\n\n")
+  escreva ("¯\\_(ツ)_/¯")
+  }
+}
